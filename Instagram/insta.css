@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #fafafa;
+    /* background-color: orange; */
+    /* background-color: rgba(var(--i1d,38,38,38),1); */
+}
+
+.image {
+    max-width: 170px;
+    max-height: 100%;
+    object-fit: contain;
+    padding-left: 55px;
+    background-color: white;
+
+}
+
+.container1 {
+    margin: 650px;
+    margin-left: 550px;
+    margin-top: 60px;
+    background-color: white;
+    width: fit-content;
+    height: 450px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: black;
+    border-width: thin;
+    border-style: inset;
+}
+
+.form {
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    float: right;
+    border-width: 50px;
+    background-color: white;
+}
+
+.text {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 3px;
+    background-color: white;
+    border-width: thin;
+
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:
+        #0095f6;
+    color: white;
+    border-width: thin;
+}
+
+h4 {
+    text-align: center;
+    color: #385185;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #385185;
+    background-color: white;
+    font-weight: lighter;
+    font-size: 12px;
+    
+}
+
+.container2 {
+    border-style: solid;
+    border-width: thin;
+    height: 5%;
+    margin-left: 550px;
+    margin-right: 900px;
+    margin-bottom: 500px ;
+    margin-top: -640px;
+    /* margin: 0 10px 10px 50px; */
+    padding-bottom: 70px;
+    width: 23.4%;
+    background-color: white;
+    box-sizing: border-box;
+}
+/* h5{
+    font-size: 14px;
+    text-align: center;
+     font-family:'Open Sans', sans-serif; 
+     font-style: normal;
+     font-weight: lighter;
+} */
+/* span{
+    color: #0095f6;
+    font-weight: bold;
+    text-align: center;
+} */
+p{
+    text-align: center;
+    padding: 10px;
+}
