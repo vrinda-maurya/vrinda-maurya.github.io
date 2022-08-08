@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url(/project2/download1.jpg) ;">
+    <h1>To Do List</h1>
+    <div class="container">
+        <input   id="InputField" type="text"><button id="addToDo">+</button>
+        <div class="to-dos" id="toDoContainer"></div></div>
+    
+
+    <script >
+let addToDoButton = document.getElementById('addToDo');
+let toDoContainer = document.getElementById('toDoContainer')
+let inputField = document.getElementById('InputField');
+
+addToDoButton.addEventListener('click', function(){
+    var paragraph=document.createElement('p')
+    paragraph.classList.add('paragraph-styling')
+    paragraph.innerText=inputField.value;
+    toDoContainer.appendChild(paragraph);
+    inputField.value="";
+    paragraph.addEventListener('click',function(){
+        paragraph.style.textDecoration="line-through";
+    })
+    paragraph.addEventListener('dblclick',function(){
+        toDoContainer.removeChild(paragraph);
+    })
+
+})
+
+
+
+    </script>
+    
+</body>
+</html>
