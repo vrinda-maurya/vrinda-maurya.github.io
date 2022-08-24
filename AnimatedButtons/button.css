@@ -43,12 +43,12 @@ body {
 
 .container a:nth-child(1):before,
 .container a:nth-child(1):after {
-    background: linear-gradient(45deg, #00ccff, #0e1538, #d400d4);
+    background: linear-gradient(45deg, #00ccff, #0e1538, #0004d4);
 }
 
 .container a:nth-child(2):before,
 .container a:nth-child(2):after {
-    background: linear-gradient(45deg, #ff075b, #0e1538, #1aff22);
+    background: linear-gradient(45deg, purple, #0e1538, #1aff22);
 }
 
 
@@ -59,7 +59,7 @@ body {
 
 .container a:hover:after {
     inset: -3px;
-    filter: blur(10px);
+    filter: blur(20px);
 }
 
 .container a span {
