@@ -15,8 +15,8 @@
         width: 20%;
     }
 
-    .btn {
-        margin-left: 730px;
+    .btn  {
+       width: 100px;
         background-color: green
     }
 </style>
@@ -24,7 +24,7 @@
 <body style="background-color:black">
     <img id="bulb" src="/images/bulb-off.jpg" alt="bulb is off" class="center">
 
-    <button id="toggleBtn" class="btn">Turn On</button>
+    <button id="toggleBtn" class="btn center">Turn On</button>
 
     <script>
         let btn = document.getElementById("toggleBtn");
@@ -32,6 +32,7 @@
 
         btn.addEventListener('click', toggleBulb)
         function toggleBulb(e) {
+            console.log(btn.textContent);
             if(btn.textContent.includes('On')){
                 bulb.src = "/images/bulb-on.jpg";
                 btn.innerText="Turn Off"
@@ -41,6 +42,7 @@
             }
             
         };
+       
 
     </script>
 

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms tags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="action" action="" method="GET">
+            <div>
+                <label for="full name">Full Name:</label><br>
+                <input type="text" name="name" placeholder="Enter your name" style="width:100%">
+            </div>
+
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="text" name="email" placeholder="Enter your email" style="width:100%">
+            </div>
+
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" style="width:100%">
+            </div>
+            <div>
+                <label for="confirm password">Confirm Password:</label><br>
+                <input type="password" name="confirm password" style="width:100%">
+            </div><br>
+            Gender:
+            <div id="select" >
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" >
+            </div>
+            <div id="select">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" >
+            </div>
+            <div id="select" >
+                <label for="others">Others</label>
+                <input type="radio" name="gender" value="others">
+            </div>
+            <div>
+                <label for="security questions">Security Questions:</label><br>
+                <select name="security questions" style="width:100%">
+                    <option>What was your first pet name?</option>
+                    <option>Your date of birth?</option>
+                    <option>whats the name of your kindergarden teacher?</option>
+                </select>
+            </div>
+            <div>
+                <label for="textarea"></label>
+                <textarea style="width:100%;"></textarea>
+            </div>
+
+            <div id="btn">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="form.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form action="" method="GET">
+        <div>
+            <label for="name">Name</label>
+            <input typ="text" value="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Please enter your email" required>
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" max="50" min="15">
+        </div>
+
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" >
+        </div>
+
+        <div>
+            <label for="URL">URL</label>
+            <input type="url" name="url" >
+        </div>
+
+        <div>
+            <label for="color">color</label>
+            <input type="color" name="color" >
+        </div>
+
+        <div>
+            <label for="date">Birthdate</label>
+            <input type="date" name="date">
+        </div>
+
+        Gender
+        <div>
+            <label for="male">Male</label>
+            <input type="radio"  name="gender" value="male">
+        </div>
+
+        <div>
+            <label for="female">Female</label>
+            <input type="radio"  name="gender" value="female">
+        </div>
+
+        <div>
+            <label for="eyeColor">Eye color</label>
+            <select name="Eye Color">
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+            </select>
+        </div>
+
+        Favorite food
+        <div>
+            <label for="orange">Orange</label>
+            <input type="checkbox" name="orange">
+        </div>
+
+        <div>
+            <label for="grapes">Grapes</label>
+            <input type="checkbox" name="grapes">
+        </div>
+
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="file">
+        </div>
+
+        <div>
+            <label for="suggestionS">Suggestions</label>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form> -->

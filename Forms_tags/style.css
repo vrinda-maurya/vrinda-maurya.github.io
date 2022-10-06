@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-color:rgb(171, 201, 229);
+   
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.action{
+  padding: 40px 60px 60px 40px;
+  align-items: center;
+}
+div{
+    margin-top: 20px;
+}
+#select{
+    display: inline-block;
+}
+#btn{
+    align-content:center;
+    margin-left: 100px;
+    align-content: space-between;
+}
+button{
+    width: 100px;
+    height: 30px;
+}
